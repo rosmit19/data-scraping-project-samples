@@ -17,7 +17,6 @@ from selenium.common.exceptions import TimeoutException
 
 
 
-# """JAVASCRIPT DISABLE, MAYBE TO_DO USING SELENIUM"""
 class TestSpider(scrapy.Spider):
     name = "algonquin"
     file_name = 'Algonquin College CA'
